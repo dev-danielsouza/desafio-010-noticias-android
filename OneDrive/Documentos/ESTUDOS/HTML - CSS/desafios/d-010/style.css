@@ -210,6 +210,16 @@ footer > p > a {
   color: white;
 }
 
-#section-final > p {
-  margin: 0 20px 0 20px;
+footer > p > a:hover {
+  color: #2fa866;
+}
+
+@media (max-width: 574px) {
+  #section-final > p {
+    margin: 0 20px 0 20px;
+  }
+
+  footer > p {
+    padding: 0 20px 5px 0;
+  }
 }
